@@ -1,0 +1,6 @@
+services:
+  - type: web
+    name: string-api
+    env: python
+    buildCommand: ""
+    startCommand: gunicorn app:app
